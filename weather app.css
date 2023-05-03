@@ -1,0 +1,41 @@
+body{
+     padding-top: 20px;
+     background-color: #2196F3;
+     position: relative;
+}
+
+.small-in{
+    font-size: 14px;
+}
+
+.day-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.day{
+font-size: 18px;
+}
+
+.hour-section{
+    padding-top: 20px;
+}
+
+.my-alert {
+    
+    border: 1px solid #f5c6cb;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    position: absolute;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   bottom: -200px;
+    right: 20px;
+  }
+  .close-alert{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+  }
